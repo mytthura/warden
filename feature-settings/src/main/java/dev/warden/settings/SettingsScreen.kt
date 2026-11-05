@@ -202,6 +202,7 @@ private fun SettingsHome(
             LinkRow(DesignR.drawable.ph_device_mobile_light, stringResource(R.string.settings_replay_intro), onReplayIntro)
             HorizontalDivider(color = c.outline)
             ClearHistoryRow()
+            CrashReportRow()
         }
 
         Section(stringResource(R.string.settings_about)) {

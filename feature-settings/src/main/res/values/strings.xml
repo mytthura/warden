@@ -67,4 +67,10 @@
     <string name="dns_custom_invalid">Needs to start with https://</string>
     <string name="dns_bypass">Stop apps going around Warden</string>
     <string name="dns_bypass_note">Blocks apps\' own DNS servers, including encrypted ones like Chrome\'s Secure DNS, so every lookup passes Warden\'s rules.</string>
+    <string name="crash_row">Crash report</string>
+    <string name="crash_row_body">Warden crashed recently. See what was saved.</string>
+    <string name="crash_note">Saved on this phone only. Warden never sends it. Copy it into a bug report to help fix the crash.</string>
+    <string name="crash_copy">Copy</string>
+    <string name="crash_copied">Copied</string>
+    <string name="crash_delete">Delete</string>
 </resources>

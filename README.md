@@ -90,7 +90,8 @@ flowchart LR
 
 ## Privacy promise
 
-- No account, no analytics, no crash reporting, no ads, no cloud.
+- No account, no analytics, no automatic crash reporting, no ads, no cloud. After a crash, a report stays
+  on your phone until you choose to copy it.
 - Warden's own network calls are only the ones you switch on: blocklist downloads, and lookups to the
   encrypted DNS server you pick.
 - Warden never decrypts HTTPS. It sees *where* apps connect (domain, IP, port), never *what* they send.

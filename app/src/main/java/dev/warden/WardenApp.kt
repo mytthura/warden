@@ -1,6 +1,7 @@
 package dev.warden
 
 import android.app.Application
+import dev.warden.data.CrashLog
 import dev.warden.data.History
 import dev.warden.rules.Rules
 
@@ -8,6 +9,7 @@ import dev.warden.rules.Rules
 class WardenApp : Application() {
     override fun onCreate() {
         super.onCreate()
+        CrashLog.install(this)
         Rules.init(this)
         History.init(this)
     }

@@ -14,7 +14,8 @@
 - **A compromised device.**
 
 ## Warden's own footprint
-- No analytics, accounts or crash reporting.
+- No analytics, accounts or automatic crash reporting. A crash report stays on the phone until the user
+  reads and copies it (Settings > General).
 - Network calls: blocklist downloads the user enables (from the list publisher), nothing else.
 - Logs stay in memory; nothing is written to disk except settings and downloaded lists.
 - Fail-open: if Warden's process dies, Android removes the VPN and traffic flows normally

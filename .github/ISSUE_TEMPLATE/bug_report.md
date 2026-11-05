@@ -12,5 +12,10 @@ labels: bug
 1.
 2.
 
+**Crash report** (if the app crashed: Settings > General > Crash report > Copy, then paste it here)
+
+```
+```
+
 **Device**: model, Android version, Warden version
 **Other VPN / Private DNS in use?**
