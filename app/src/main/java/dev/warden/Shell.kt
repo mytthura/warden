@@ -361,7 +361,9 @@ internal class AppInfo(private val pm: PackageManager, context: Context) {
     private val loading = HashSet<Int>() // main thread only
     private val scope = MainScope()
 
-    private fun pkg(uid: Int) = if (uid >= Process.FIRST_APPLICATION_UID) pm.getPackagesForUid(uid)?.firstOrNull() else null
+    // Traffic can carry UIDs the package manager won't answer for; that must read as "unknown", not crash (issue #1).
+    private fun pkg(uid: Int) =
+        if (uid >= Process.FIRST_APPLICATION_UID) runCatching { pm.getPackagesForUid(uid)?.firstOrNull() }.getOrNull() else null
 
     fun label(uid: Int): String = labels.getOrPut(uid) {
         when {

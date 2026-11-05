@@ -2,7 +2,6 @@ package dev.warden.apps
 
 import dev.warden.design.ScreenTitle
 import android.Manifest
-import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.os.Process
 import androidx.compose.foundation.background
@@ -327,20 +326,22 @@ private fun RuleTag(rule: AppRule?, skipped: Boolean, blocked: Int) {
     )
 }
 
-/** Installed apps that can use the internet, by UID (apps sharing a UID come as one). Warden itself excluded. */
-private fun internetApps(pm: PackageManager): Map<Int, List<String>> {
-    val packages: List<PackageInfo> = pm.getInstalledPackages(PackageManager.GET_PERMISSIONS)
-    return packages
-        .filter { p ->
-            val uid = p.applicationInfo?.uid ?: return@filter false
+/**
+ * Installed apps that can use the internet, by UID (apps sharing a UID come as one). Warden itself excluded.
+ * Any system failure here only shortens the list: an uncaught one on this coroutine would crash the app
+ * (issue #1), and apps seen in traffic still show without it.
+ */
+private fun internetApps(pm: PackageManager): Map<Int, List<String>> =
+    runCatching { pm.getInstalledApplications(0) }.getOrDefault(emptyList())
+        .filter { app ->
             // System UIDs (shared by Settings and other built-ins) already show as one "Android system" row.
-            uid >= Process.FIRST_APPLICATION_UID && uid != Process.myUid() &&
-                p.requestedPermissions?.contains(Manifest.permission.INTERNET) == true &&
-                // System services without a launcher icon are noise here; they still show once they connect.
-                pm.getLaunchIntentForPackage(p.packageName) != null
+            app.uid >= Process.FIRST_APPLICATION_UID && app.uid != Process.myUid() && runCatching {
+                pm.checkPermission(Manifest.permission.INTERNET, app.packageName) == PackageManager.PERMISSION_GRANTED &&
+                    // System services without a launcher icon are noise here; they still show once they connect.
+                    pm.getLaunchIntentForPackage(app.packageName) != null
+            }.getOrDefault(false)
         }
-        .groupBy({ it.applicationInfo!!.uid }, { it.packageName })
-}
+        .groupBy({ it.uid }, { it.packageName })
 
 private val INDEX_WIDTH = 24.dp
 private const val HEADER_ITEMS = 3
