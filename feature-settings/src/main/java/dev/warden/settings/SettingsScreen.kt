@@ -199,6 +199,8 @@ private fun SettingsHome(
         }
 
         Section(stringResource(R.string.settings_general)) {
+            AddTileRow()
+            HorizontalDivider(color = c.outline)
             LinkRow(DesignR.drawable.ph_device_mobile_light, stringResource(R.string.settings_replay_intro), onReplayIntro)
             HorizontalDivider(color = c.outline)
             ClearHistoryRow()
@@ -224,7 +226,7 @@ private fun Section(title: String, note: String? = null, content: @Composable Co
 }
 
 @Composable
-private fun LinkRow(icon: Int, label: String, onClick: () -> Unit) {
+internal fun LinkRow(icon: Int, label: String, onClick: () -> Unit) {
     val c = Warden.colors
     Row(
         Modifier.fillMaxWidth().heightIn(min = 52.dp).clickable(onClick = onClick),

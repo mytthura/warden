@@ -73,4 +73,9 @@
     <string name="crash_copy">Copy</string>
     <string name="crash_copied">Copied</string>
     <string name="crash_delete">Delete</string>
+    <string name="settings_tile">Add to Quick Settings</string>
+    <string name="settings_tile_name">Protection</string>
+    <string name="settings_tile_how">Swipe down twice from the top of the screen, tap the pencil, then drag Warden\'s Protection tile into place.</string>
+    <string name="settings_tile_ok">Got it</string>
+    <string name="settings_tile_already">Already in Quick Settings</string>
 </resources>

@@ -53,6 +53,7 @@
 - **Encrypted DNS**: send lookups to Cloudflare, Quad9 or your own DNS-over-HTTPS server, so your Wi-Fi or carrier can't read them.
 - **Private DNS warning** when Android's own setting would bypass Warden, with a link to fix it.
 - **Survives network changes**, rebuilding itself when you move between IPv4-only and IPv6 networks.
+- **Quick Settings tile** to turn protection on or off from the notification shade.
 
 **Built to be light and private**
 - No account, no analytics, no ads, no cloud. Nothing about your traffic leaves the phone.
@@ -143,7 +144,7 @@ Good first issues are listed in [docs/good-first-issues.md](docs/good-first-issu
 
 - Learning mode: suggestions like "Instagram contacted 3 trackers this week; block them?"
 - Screen-off blocking and new-app alerts
-- Quick Settings tile, home-screen widget and scheduled rules
+- Home-screen widget and scheduled rules
 - Backup and restore of rules
 - Optional per-app Tor routing through Orbot
 

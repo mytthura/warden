@@ -8,4 +8,7 @@
         <item quantity="other">%d connections blocked since Warden started.</item>
     </plurals>
     <string name="engine_notif_stop">Stop</string>
+    <string name="engine_tile">Protection</string>
+    <string name="engine_tile_on">On</string>
+    <string name="engine_tile_off">Off</string>
 </resources>
