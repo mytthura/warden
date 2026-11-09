@@ -1,0 +1,128 @@
+<resources>
+    <string name="apps_title">အက်ပ်များ</string>
+    <string name="apps_back">အက်ပ်များဆီ ပြန်သွားမယ်</string>
+    <plurals name="apps_summary">
+        <item quantity="one">မကြာသေးခင်က ချိတ်ဆက်ခဲ့တဲ့ အက်ပ် %d ခု ရှိပါတယ်။ အသေးစိတ်ကြည့်ဖို့ တစ်ခုကို နှိပ်ပါ။</item>
+        <item quantity="other">မကြာသေးခင်က ချိတ်ဆက်ခဲ့တဲ့ အက်ပ် %d ခု ရှိပါတယ်။ အသေးစိတ်ကြည့်ဖို့ တစ်ခုကို နှိပ်ပါ။</item>
+    </plurals>
+    <plurals name="apps_connections">
+        <item quantity="one">ချိတ်ဆက်မှု %d ခု</item>
+        <item quantity="other">ချိတ်ဆက်မှု %d ခု</item>
+    </plurals>
+    <plurals name="apps_domains">
+        <item quantity="one">ဒိုမိန်း %d ခု</item>
+        <item quantity="other">ဒိုမိန်း %d ခု</item>
+    </plurals>
+    <plurals name="apps_lookups">
+        <item quantity="one">ရှာဖွေမှု %d ခု</item>
+        <item quantity="other">ရှာဖွေမှု %d ခု</item>
+    </plurals>
+    <plurals name="apps_blocked">
+        <item quantity="one">ပိတ်ထားတာ %d ခု</item>
+        <item quantity="other">ပိတ်ထားတာ %d ခု</item>
+    </plurals>
+    <string name="apps_empty_title">သင့်အက်ပ်တွေ ဒီမှာ တန်းစီပေါ်လာမယ်</string>
+    <string name="apps_empty_body">Warden ကို ဖွင့်ပြီး ချိတ်ဆက်တဲ့ အက်ပ်တိုင်းကို ဒီမှာ ပြပေးပါမယ် — အများဆုံး ချိတ်တဲ့ဟာကို အရင်ပြပေးပါတယ်။</string>
+
+    <string name="apps_last_seen">နောက်ဆုံး မြင်ရတာ %1$s</string>
+    <string name="apps_detail_summary">%1$s က မကြာသေးခင်က %3$s ဆီကို %2$s ချိတ်ဆက်ခဲ့ပါတယ်။</string>
+    <plurals name="apps_detail_blocked">
+        <item quantity="one">အဲဒီထဲက %d ခု ပိတ်ထားပါတယ်။</item>
+        <item quantity="other">အဲဒီထဲက %d ခု ပိတ်ထားပါတယ်။</item>
+    </plurals>
+    <string name="apps_detail_none_blocked">ဘာမှ ပိတ်မထားပါဘူး။</string>
+    <string name="apps_detail_data">စုစုပေါင်း %1$s လောက် ဒေတာ သုံးသွားပါတယ်။</string>
+    <string name="apps_sq_connections">ချိတ်ဆက်မှု</string>
+    <string name="apps_sq_domains">ဒိုမိန်း</string>
+    <string name="apps_sq_blocked">ပိတ်ထားသည်</string>
+    <string name="apps_activity">လှုပ်ရှားမှု · နောက်ဆုံး 5 မိနစ်</string>
+    <string name="apps_activity_none">နောက်ဆုံး 5 မိနစ်အတွင်း ဘာမှ မရှိပါဘူး။</string>
+    <string name="apps_domains_label">ဒိုမိန်း · တစ်ခုကို နှိပ်ပြီး ချိတ်ဆက်မှုတွေ ကြည့်နိုင်သလို ပိတ်လည်းပိတ်နိုင်ပါတယ်</string>
+    <string name="apps_expanded">ဖြန့်ထားသည်</string>
+    <string name="apps_collapsed">ခေါက်ထားသည်</string>
+    <string name="apps_blocked_word">ပိတ်ထားသည်</string>
+    <string name="apps_wifi">Wi-Fi</string>
+    <string name="apps_cellular">မိုဘိုင်းဒေတာ</string>
+    <string name="apps_wifi_for">%1$s အတွက် Wi-Fi သုံးခွင့်</string>
+    <string name="apps_cellular_for">%1$s အတွက် မိုဘိုင်းဒေတာ သုံးခွင့်</string>
+    <string name="apps_skip">Warden ကို ကျော်သွားမယ်</string>
+    <string name="apps_skip_on">VPN ကို ကျော်သွားသည် · စစ်ဆေးခြင်း သို့မဟုတ် မှတ်တမ်းတင်ခြင်း မရှိ</string>
+    <string name="apps_skip_off">Warden က စစ်ဆေးထားသည်</string>
+    <string name="apps_skip_for">%1$s အတွက် Warden ကို ကျော်သွားမယ်</string>
+    <string name="apps_allowed">ခွင့်ပြုထားသည်</string>
+    <string name="apps_more">နောက်ထပ် %1$d ခု</string>
+    <string name="rule_default">ပုံမှန်</string>
+    <string name="rule_allow_here">ဒီအက်ပ်အတွက် ခွင့်ပြုမယ်</string>
+    <string name="rule_block_here">ဒီအက်ပ်အတွက် ပိတ်မယ်</string>
+    <string name="rule_block_everywhere">နေရာတိုင်းမှာ ပိတ်မယ်</string>
+    <string name="apps_trackers">ခြေရာခံ</string>
+    <string name="apps_trackers_none">ဒီအက်ပ်ရဲ့ မကြာသေးခင်က ချိတ်ဆက်မှုတွေမှာ သိထားတဲ့ ခြေရာခံ မရှိပါဘူး။</string>
+    <string name="apps_trackers_sentence">%2$s က %1$s နဲ့ ချိတ်ဆက်ခဲ့ပါတယ်။</string>
+    <plurals name="apps_n_trackers">
+        <item quantity="one">ခြေရာခံ %d ခု</item>
+        <item quantity="other">ခြေရာခံ %d ခု</item>
+    </plurals>
+    <plurals name="apps_n_companies">
+        <item quantity="one">ကုမ္ပဏီ %d ခု</item>
+        <item quantity="other">ကုမ္ပဏီ %d ခု</item>
+    </plurals>
+    <string name="report_open">ကိုယ်ရေးကိုယ်တာ အစီရင်ခံစာ</string>
+    <string name="report_share">အစီရင်ခံစာ မျှဝေမယ်</string>
+    <string name="report_formula">အဆင့် ဘယ်လို တွက်လဲ</string>
+    <string name="report_kicker">ကိုယ်ရေးကိုယ်တာ အစီရင်ခံစာ · နောက်ဆုံး 7 ရက်</string>
+    <plurals name="report_connections">
+        <item quantity="one">ချိတ်ဆက်သည်</item>
+        <item quantity="other">ချိတ်ဆက်သည်</item>
+    </plurals>
+    <plurals name="report_companies">
+        <item quantity="one">ခြေရာခံ ကုမ္ပဏီ</item>
+        <item quantity="other">ခြေရာခံ ကုမ္ပဏီ</item>
+    </plurals>
+    <string name="report_blocked">ပိတ်ထားသည်</string>
+    <string name="report_footer">အမှတ် %1$d / 100 · Warden က ဒီဖုန်းပေါ်မှာပဲ စစ်ဆေးထားသည်</string>
+    <string name="report_share_text">Warden က ထုတ်ပေးတဲ့ %1$s ရဲ့ ကိုယ်ရေးကိုယ်တာ အစီရင်ခံစာ</string>
+    <string name="apps_access_label">ကွန်ရက် သုံးခွင့်</string>
+    <string name="report_row_title">ကိုယ်ရေးကိုယ်တာ အဆင့် %1$s</string>
+    <string name="report_row_body">အစီရင်ခံစာကတ်နဲ့ အဆင့် ဘယ်လိုတွက်ထားလဲ ကြည့်ပါ</string>
+    <string name="report_start">အက်ပ်တိုင်း စစချင်း အမှတ်က</string>
+    <plurals name="report_line_companies">
+        <item quantity="one">ခြေရာခံ ကုမ္ပဏီ %d ခု (တစ်ခုလျှင် 9 မှတ်၊ အများဆုံး 6 ခုအထိ)</item>
+        <item quantity="other">ခြေရာခံ ကုမ္ပဏီ %d ခု (တစ်ခုလျှင် 9 မှတ်၊ အများဆုံး 6 ခုအထိ)</item>
+    </plurals>
+    <string name="report_line_trackers">ဒေတာရဲ့ %1$d%% က ခြေရာခံတွေဆီ ရောက်သွားတယ်</string>
+    <string name="report_line_screen_off">%1$d%% က မျက်နှာပြင် ပိတ်ထားချိန်မှာ ဖြစ်ခဲ့တယ်</string>
+    <string name="report_line_score">အမှတ်၊ အဆင့် %1$s</string>
+    <string name="report_bands">A 90 နဲ့အထက် · B 80 · C 65 · D 50 · F 50 အောက်။ နောက်ဆုံး 7 ရက်အတွင်းဖြစ်ပြီး Warden က ဒီဖုန်းပေါ်မှာ မြင်ရတာတွေနဲ့ပဲ တွက်ထားပါတယ်။</string>
+    <string name="apps_section_overview">အကျဉ်းချုပ်</string>
+    <string name="apps_section_data">သုံးတဲ့ ဒေတာ</string>
+    <string name="apps_range_today">ဒီနေ့</string>
+    <string name="apps_range_week">7 ရက်</string>
+    <string name="apps_range_month">30 ရက်</string>
+    <string name="apps_data_networks">နောက်ဆုံး 30 ရက်: Wi-Fi %1$s · မိုဘိုင်း %2$s</string>
+    <string name="apps_data_warden_only">Warden ဖွင့်ထားချိန်ကပဲ ရေတွက်ထားတာပါ။ ဒေတာ စာမျက်နှာမှာ Usage ခွင့်ပြုပေးရင် အချိန်တိုင်း ရေတွက်ပေးပါမယ်။</string>
+    <string name="apps_domains_title">ဒိုမိန်း · %1$d</string>
+    <string name="apps_domains_hint">တစ်ခုကို နှိပ်ပြီး ချိတ်ဆက်မှုတွေ ကြည့်နိုင်သလို ပိတ်လည်းပိတ်နိုင်ပါတယ်။</string>
+    <plurals name="apps_summary_all">
+        <item quantity="one">အင်တာနက် သုံးနိုင်တဲ့ အက်ပ် %d ခု ရှိပါတယ်။ ကြည့်ချင်တာ၊ ကန့်သတ်ချင်တာရှိရင် တစ်ခုကို နှိပ်ပါ။</item>
+        <item quantity="other">အင်တာနက် သုံးနိုင်တဲ့ အက်ပ် %d ခု ရှိပါတယ်။ ကြည့်ချင်တာ၊ ကန့်သတ်ချင်တာရှိရင် တစ်ခုကို နှိပ်ပါ။</item>
+    </plurals>
+    <string name="apps_search">အက်ပ်ရှာမယ်</string>
+    <string name="apps_filter_active">သုံးနေတာ</string>
+    <string name="apps_filter_all">အက်ပ်အားလုံး</string>
+    <string name="apps_filter_ruled">စည်းမျဉ်းရှိတာ</string>
+    <string name="apps_no_traffic">ချိတ်ဆက်မှု မရှိသေးဘူး</string>
+    <string name="apps_none_match">ဒီမှာ အက်ပ်မရှိဘူး</string>
+    <string name="apps_none_match_body">တခြားနာမည်နဲ့ ရှာကြည့်ပါ၊ ဒါမှမဟုတ် အက်ပ်အားလုံးကို ပြောင်းကြည့်ပါ။</string>
+    <string name="apps_rule_offline">အင်တာနက် မရှိ</string>
+    <string name="apps_rule_no_wifi">Wi-Fi မရှိ</string>
+    <string name="apps_rule_no_mobile">မိုဘိုင်းဒေတာ မရှိ</string>
+    <string name="apps_rule_skipped">Warden ကို ကျော်သွားသည်</string>
+    <string name="report_row_short">အစီရင်ခံစာ</string>
+    <string name="apps_see_on_map">မြေပုံ</string>
+    <string name="apps_see_on_map_body">ဘယ်ကို သွားလဲ</string>
+    <string name="report_tile_title">အဆင့် %1$s</string>
+    <string name="apps_data_wifi">Wi-Fi · 30 ရက်</string>
+    <string name="apps_data_mobile">မိုဘိုင်း · 30 ရက်</string>
+    <string name="report_tile_none">အဆင့်မရှိသေးဘူး</string>
+    <string name="report_tile_none_body">ချိတ်ဆက်မှု မရှိသေးဘူး</string>
+</resources>
