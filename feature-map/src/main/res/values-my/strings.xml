@@ -1,0 +1,48 @@
+<resources>
+    <string name="map_title_sans">ဘယ်ကို ရောက်သွားလဲ</string>
+    <string name="map_empty">Warden ကို ဖွင့်လိုက်ရင် သင့်အက်ပ်တွေ ချိတ်ဆက်တာနဲ့ မျဉ်းကြောင်းတွေ ပေါ်လာပါမယ်။</string>
+    <string name="map_hint">လှည့်ဖို့ ဆွဲပါ။ ချိတ်ဆက်မှု အားလုံး ကြည့်ဖို့ အစက် ဒါမှမဟုတ် နိုင်ငံကို နှိပ်ပါ။</string>
+    <plurals name="map_globe_description">
+        <item quantity="one">နိုင်ငံ %d ခုဆီ ချိတ်ဆက်ထားတဲ့ ကမ္ဘာလုံး။ အောက်က စာရင်းမှာ အတူတူ အသေးစိတ် ပါပါတယ်။</item>
+        <item quantity="other">နိုင်ငံ %d ခုဆီ ချိတ်ဆက်ထားတဲ့ ကမ္ဘာလုံး။ အောက်က စာရင်းမှာ အတူတူ အသေးစိတ် ပါပါတယ်။</item>
+    </plurals>
+    <string name="map_all_apps">အက်ပ်အားလုံး</string>
+    <string name="map_search_apps">အက်ပ်ရှာမယ်</string>
+    <string name="map_done">ပြီးပါပြီ</string>
+    <plurals name="map_n_apps">
+        <item quantity="one">အက်ပ် %d ခု</item>
+        <item quantity="other">အက်ပ် %d ခု</item>
+    </plurals>
+    <plurals name="map_show_n">
+        <item quantity="one">အက်ပ် %d ခု ပြမယ်</item>
+        <item quantity="other">အက်ပ် %d ခု ပြမယ်</item>
+    </plurals>
+    <string name="map_edge">%1$s အနီးနား ဆာဗာ</string>
+    <string name="map_edge_explain">ကုမ္ပဏီရဲ့ မူရင်းနိုင်ငံက ဆာဗာမဟုတ်ဘဲ အနီးနားက ဆာဗာကနေ ဝန်ဆောင်မှုပေးတာပါ။</string>
+    <string name="map_see_all">အားလုံးကြည့်မယ်</string>
+    <string name="map_countries">နိုင်ငံများ</string>
+    <string name="map_back">ကမ္ဘာလုံးဆီ ပြန်သွားမယ်</string>
+    <string name="map_apps">ဒီကို ရောက်သွားတဲ့ အက်ပ်များ</string>
+    <plurals name="map_all_traffic">
+        <item quantity="one">ချိတ်ဆက်မှုအားလုံး · %d ခု</item>
+        <item quantity="other">ချိတ်ဆက်မှုအားလုံး · %d ခု</item>
+    </plurals>
+    <string name="map_sq_connections">ချိတ်ဆက်မှု</string>
+    <string name="map_sq_apps">အက်ပ်များ</string>
+    <string name="map_sq_domains">ဒိုမိန်း</string>
+    <string name="map_sq_blocked">ပိတ်ထားသည်</string>
+    <plurals name="map_connections">
+        <item quantity="one">ချိတ်ဆက်မှု %d ခု</item>
+        <item quantity="other">ချိတ်ဆက်မှု %d ခု</item>
+    </plurals>
+    <plurals name="map_blocked">
+        <item quantity="one">ပိတ်ထားတာ %d ခု</item>
+        <item quantity="other">ပိတ်ထားတာ %d ခု</item>
+    </plurals>
+    <string name="map_scope_session">ဒီအကြိမ်</string>
+    <string name="map_scope_today">ဒီနေ့</string>
+    <string name="map_scope_week">7 ရက်</string>
+    <string name="map_scope_month">30 ရက်</string>
+    <string name="map_blocked_only">ပိတ်ထားတာ</string>
+    <string name="map_trackers_only">ခြေရာခံ</string>
+</resources>
