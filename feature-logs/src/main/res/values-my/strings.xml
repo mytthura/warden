@@ -1,0 +1,18 @@
+<resources>
+    <string name="log_title">တိုက်ရိုက်မှတ်တမ်း</string>
+    <string name="log_live">တိုက်ရိုက် · ဖြစ်ရပ် %1$d ခု · ပိတ်ထားတာ %2$d ခု</string>
+    <string name="log_paused">ခေတ္တရပ်ထားသည် · ဖြစ်ရပ် %1$d ခု · ပိတ်ထားတာ %2$d ခု</string>
+    <string name="log_filter_all">အားလုံး</string>
+    <string name="log_filter_blocked">ပိတ်ထားတာ</string>
+    <string name="log_filter_dns">DNS</string>
+    <string name="log_filter_connections">ချိတ်ဆက်မှု</string>
+    <string name="log_blocked">ပိတ်ထားသည်</string>
+    <string name="log_empty_title">ခုတော့ တိတ်ဆိတ်နေတယ်</string>
+    <string name="log_empty_body">Warden ကို ဖွင့်လိုက်ရင် ချိတ်ဆက်မှုတိုင်း ဖြစ်တာနဲ့ ဒီမှာ ပေါ်လာပါမယ်။</string>
+    <string name="log_filtered_title">ဒီမှာ ဘာမှ မရှိသေးဘူး</string>
+    <string name="log_filtered_body">ဒီ စစ်ထုတ်မှုနဲ့ ကိုက်ညီတဲ့ မကြာသေးခင်က ဖြစ်ရပ် မရှိပါဘူး။</string>
+    <string name="rule_default">ပုံမှန်</string>
+    <string name="rule_allow_here">ဒီအက်ပ်အတွက် ခွင့်ပြုမယ်</string>
+    <string name="rule_block_here">ဒီအက်ပ်အတွက် ပိတ်မယ်</string>
+    <string name="rule_block_everywhere">နေရာတိုင်းမှာ ပိတ်မယ်</string>
+</resources>
