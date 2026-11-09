@@ -1,0 +1,81 @@
+<resources>
+    <string name="settings_title_sans">ဆက်တင်</string>
+    <string name="settings_back">ဆက်တင်ဆီ ပြန်သွားမယ်</string>
+
+    <string name="settings_rules">သင့်စည်းမျဉ်းများ</string>
+    <string name="settings_rules_body">ပိတ်ထားတာ၊ ခွင့်ပြုထားတာ၊ ကျော်သွားတာတွေ အားလုံး</string>
+    <string name="settings_rules_hint">စည်းမျဉ်းတစ်ခုကို ဖျက်ဖို့ Remove ကို နှိပ်ပါ။ ချက်ချင်း သက်ရောက်ပါမယ်။</string>
+    <string name="settings_sq_apps">အက်ပ်များ</string>
+    <string name="settings_sq_domains">ဒိုမိန်း</string>
+    <string name="settings_sq_skipped">ကျော်သွားတာ</string>
+    <string name="settings_sq_lists">စာရင်းများ</string>
+    <string name="settings_rules_apps">ပိတ်ထားတဲ့ အက်ပ်များ</string>
+    <string name="settings_rules_skipped">Warden က ကျော်သွားတာ</string>
+    <string name="settings_rules_domains">ဒိုမိန်း စည်းမျဉ်းများ</string>
+    <string name="settings_blocked_both">Wi-Fi နဲ့ မိုဘိုင်းဒေတာ နှစ်မျိုးလုံး</string>
+    <string name="settings_blocked_wifi">Wi-Fi ပေါ်မှာ</string>
+    <string name="settings_blocked_cellular">မိုဘိုင်းဒေတာပေါ်မှာ</string>
+    <string name="settings_skipped_caption">VPN ကို ကျော်သွားသည်၊ စစ်ဆေးခြင်း သို့မဟုတ် မှတ်တမ်းတင်ခြင်း မရှိ</string>
+    <string name="settings_everywhere">အက်ပ်တိုင်း</string>
+    <string name="settings_tag_blocked">ပိတ်ထားသည်</string>
+    <string name="settings_tag_allowed">ခွင့်ပြုထားသည်</string>
+    <string name="settings_tag_skipped">ကျော်သွားသည်</string>
+    <string name="settings_remove">ဖယ်ရှားမယ်</string>
+    <string name="settings_rules_empty_title">စည်းမျဉ်း မရှိသေးဘူး</string>
+    <string name="settings_rules_empty_body">အက်ပ်တစ်ခုကို ဒါမှမဟုတ် ဒိုမိန်းတစ်ခုကို သူ့ရဲ့ အသေးစိတ် စာမျက်နှာ ဒါမှမဟုတ် တိုက်ရိုက်မှတ်တမ်းကနေ ပိတ်လိုက်ရင် ဒီမှာ ပေါ်လာပါမယ်။</string>
+
+    <string name="settings_blocklists">ပိတ်စာရင်းများ</string>
+    <string name="settings_blocklists_note">ထုတ်ဝေသူဆီက ဒေါင်းလုဒ်လုပ်ထားတာ၊ Wi-Fi ပေါ်မှာ အပတ်တိုင်း အသစ်ပြန်ယူပါတယ်။</string>
+    <string name="settings_bl_refresh">%1$s ကို ခု အသစ်ယူမယ်</string>
+    <string name="settings_bl_downloading">ဒေါင်းလုဒ်လုပ်နေသည်…</string>
+    <string name="settings_bl_failed">ဒေါင်းလုဒ် မရလိုက်ဘူး · ထပ်ကြိုးစားဖို့ နှိပ်ပါ</string>
+    <string name="settings_bl_entries">ဒိုမိန်း %1$s ခု · %2$s</string>
+    <string name="settings_bl_license">%1$s</string>
+
+    <string name="settings_appearance">အသွင်အပြင်</string>
+    <string name="settings_theme_system">စနစ်အတိုင်း</string>
+    <string name="settings_theme_light">အလင်း</string>
+    <string name="settings_theme_dark">အမှောင်</string>
+
+    <string name="settings_general">အထွေထွေ</string>
+    <string name="settings_replay_intro">မိတ်ဆက်ကို ထပ်ပြမယ်</string>
+
+    <string name="settings_clear">မှတ်တမ်း ရှင်းမယ်</string>
+    <string name="settings_clear_title">မှတ်တမ်း ရှင်းမလား?</string>
+    <string name="settings_clear_body">ဒီဖုန်းပေါ်မှာ သိမ်းထားတဲ့ ချိတ်ဆက်မှုအားလုံးကို ဖျက်ပါမယ်။ သင့်စည်းမျဉ်းတွေနဲ့ ပိတ်စာရင်းတွေ ကျန်နေပါမယ်။</string>
+    <string name="settings_clear_confirm">ရှင်းမယ်</string>
+    <string name="settings_cancel">မလုပ်တော့ဘူး</string>
+    <string name="settings_about">အကြောင်း</string>
+    <string name="settings_promise">အကောင့်မရှိ၊ စာရင်းကောက်ယူမှုမရှိ၊ cloud မရှိ။ Warden က သင့်အက်ပ်တွေ ဘယ်ကိုချိတ်လဲဆိုတာကိုပဲ ဒီဖုန်းပေါ်မှာ စောင့်ကြည့်ပြီး ဘာပို့လဲဆိုတာကို ဘယ်တော့မှ ဖြေမကြည့်ပါဘူး။</string>
+    <string name="settings_credits_title">Open-source ခရက်ဒစ်</string>
+    <string name="settings_credits">Engine: firestack (MPL-2.0). IP geolocation by DB-IP.com (CC BY 4.0). Map: Natural Earth. Font: Rubik (OFL). Icons: Phosphor (MIT).</string>
+    <string name="settings_version">ဗားရှင်း %1$s</string>
+    <string name="dns_title">DNS</string>
+    <string name="dns_note">သင့်အက်ပ်တွေ လိပ်စာတွေ ဘယ်လိုရှာလဲ။ ပြောင်းလိုက်ရင် ချက်ချင်း သက်ရောက်ပါမယ်။</string>
+    <string name="dns_upstream">ရှာဖွေမှုတွေ သွားတဲ့နေရာ</string>
+    <string name="dns_upstream_phone">ဖုန်းရဲ့ DNS</string>
+    <string name="dns_upstream_cloudflare">Cloudflare</string>
+    <string name="dns_upstream_quad9">Quad9</string>
+    <string name="dns_upstream_custom">ကိုယ်ပိုင်</string>
+    <string name="dns_upstream_phone_note">သင့် Wi-Fi ဒါမှမဟုတ် အော်ပရေတာက ပေးထားတာပါ။ သင် ဘယ်ဆိုက်တွေ ရှာလဲ သူတို့ မြင်နိုင်ပါတယ်။</string>
+    <string name="dns_upstream_doh_note">ကုဒ်ဝှက်ထားသည် (DNS-over-HTTPS)၊ ဒါကြောင့် သင့် Wi-Fi ဒါမှမဟုတ် အော်ပရေတာက သင့်ရှာဖွေမှုတွေကို မြင်နိုင်တာ၊ ပြောင်းနိုင်တာ မရှိပါဘူး။</string>
+    <string name="dns_upstream_custom_note">သင့်ကိုယ်ပိုင် DNS-over-HTTPS ဆာဗာ။ URL မသိမ်းရသေးသရွေ့ ဖုန်းရဲ့ DNS ကို သုံးနေပါမယ်။</string>
+    <string name="dns_custom_hint">https://example.com/dns-query</string>
+    <string name="dns_custom_save">သိမ်းမယ်</string>
+    <string name="dns_custom_in_use">သုံးနေပါတယ်။</string>
+    <string name="dns_custom_ready">သိမ်းလိုက်ရင် စသုံးပါမယ်။</string>
+    <string name="dns_custom_invalid">https:// နဲ့ စရပါမယ်</string>
+    <string name="dns_bypass">အက်ပ်တွေ Warden ကို ပတ်မသွားအောင် တားမယ်</string>
+    <string name="dns_bypass_note">Chrome ရဲ့ Secure DNS လိုမျိုး ကုဒ်ဝှက်ထားတဲ့ DNS တွေအပါအဝင် အက်ပ်တွေကိုယ်ပိုင် DNS ဆာဗာတွေကို ပိတ်ပေးပြီး ရှာဖွေမှုတိုင်း Warden ရဲ့ စည်းမျဉ်းတွေကို ဖြတ်သွားအောင် လုပ်ပါတယ်။</string>
+    <string name="crash_row">အက်ပ် ပျက်သွားတဲ့ မှတ်တမ်း</string>
+    <string name="crash_row_body">Warden မကြာသေးခင်က ပျက်သွားပါတယ်။ သိမ်းထားတာတွေ ကြည့်ပါ။</string>
+    <string name="crash_note">ဒီဖုန်းပေါ်မှာပဲ သိမ်းထားပါတယ်။ Warden က ဘယ်တော့မှ မပို့ပါဘူး။ ပျက်တဲ့ပြဿနာ ပြုပြင်ဖို့ အစီရင်ခံစာထဲ ကူးထည့်ပြီး ကူညီပေးနိုင်ပါတယ်။</string>
+    <string name="crash_copy">ကူးမယ်</string>
+    <string name="crash_copied">ကူးပြီးပါပြီ</string>
+    <string name="crash_delete">ဖျက်မယ်</string>
+    <string name="settings_tile">Quick Settings ထဲ ထည့်မယ်</string>
+    <string name="settings_tile_name">ကာကွယ်မှု</string>
+    <string name="settings_tile_how">မျက်နှာပြင်ထိပ်ကနေ နှစ်ခါ ဆွဲချပါ၊ ခဲတံပုံကို နှိပ်ပါ၊ ပြီးရင် Warden ရဲ့ ကာကွယ်မှု tile ကို နေရာချဖို့ ဆွဲပါ။</string>
+    <string name="settings_tile_ok">သိပြီ</string>
+    <string name="settings_tile_already">Quick Settings ထဲ ရောက်နေပါပြီ</string>
+</resources>
