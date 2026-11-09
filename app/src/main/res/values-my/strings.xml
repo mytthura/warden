@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Warden</string>
+
+    <string name="tab_home">ပင်မ</string>
+    <string name="tab_apps">အက်ပ်များ</string>
+    <string name="tab_map">မြေပုံ</string>
+    <string name="tab_log">မှတ်တမ်း</string>
+    <string name="tab_settings">ဆက်တင်</string>
+
+    <string name="uid_unknown">မသိသော သို့မဟုတ် စနစ်</string>
+    <string name="uid_system">Android စနစ်</string>
+
+    <string name="onb_local_title">*သင့်ဖုန်း* ပေါ်မှာပဲ အလုပ်လုပ်တဲ့ firewall</string>
+    <string name="onb_local_body">Warden က သင့်အက်ပ်တွေ ချိတ်ဆက်မှုတိုင်းကို မြင်ဖို့ Android ရဲ့ VPN နေရာကို သုံးပါတယ်။ ဒါက ဖုန်းတွင်း VPN ပါ — သင့်ဒေတာတွေ ဘယ်ဆာဗာဆီကိုမှ မရောက်ပါဘူး၊ ဘာလို့လဲဆိုတော့ ဆာဗာကိုက မရှိလို့ပါ။</string>
+    <string name="onb_private_title">*ဘာအချက်အလက်မှ* ဖုန်းအပြင်ကို မထွက်ဘူး</string>
+    <string name="onb_private_body">အကောင့်မလို၊ စာရင်းကောက်ယူမှုမရှိ၊ cloud မရှိ။ ဒေါင်းလုဒ်လုပ်တာဆိုလို့ သင် ရွေးချယ်ထားတဲ့ ပိတ်စာရင်းတွေပဲ ရှိပြီး အဲဒါတွေကိုလည်း ပိတ်ထားလို့ရပါတယ်။</string>
+    <string name="onb_tls_title">*ဘယ်ကိုလဲ* ဆိုတာပဲ၊ ဘာလဲဆိုတာ မဟုတ်</string>
+    <string name="onb_tls_body">Warden က ချိတ်ဆက်တဲ့နေရာတွေကိုပဲ ဖတ်ပါတယ် — graph.facebook.com လိုမျိုး။ HTTPS ကို ဘယ်တော့မှ ဖြေမကြည့်ပါဘူး၊ ဒါကြောင့် သင့်မက်ဆေ့ချ်တွေနဲ့ စကားဝှက်တွေ လုံခြုံပါတယ်။</string>
+    <string name="onb_vpn_title">*ဖုန်းတွင်း VPN* ကို ခွင့်ပြုပါ</string>
+    <string name="onb_vpn_body">Android က တစ်ခါပဲ မေးပါလိမ့်မယ်။ VPN အက်ပ်တစ်ခုတည်းသာ တစ်ချိန်တည်း သုံးလို့ရတဲ့အတွက် Warden က တခြား VPN နဲ့ တွဲသုံးလို့ မရပါဘူး။</string>
+    <string name="onb_notif_title">တိတ်ဆိတ်တဲ့ *အသိပေးချက်* တစ်ခု</string>
+    <string name="onb_notif_body">Warden အလုပ်လုပ်နေချိန်မှာ Android က ဒါကို ပြထားဖို့ လိုအပ်ပါတယ်။ ပိတ်ထားတာတွေ ဘယ်လောက်ရှိလဲ ပြပေးပြီး ရပ်ဖို့ ခလုတ်လည်း ပါပါတယ်။</string>
+    <string name="onb_battery_title">Warden ကို *ဆက်အလုပ်လုပ်*ခိုင်းပါ</string>
+    <string name="onb_battery_body">ဖုန်းတချို့ (%1$s အပါအဝင်) က ဘက်ထရီချွေတာဖို့ နောက်ခံအက်ပ်တွေကို ရပ်ပစ်တတ်ပါတယ်။ App info ထဲမှာ Battery ကိုဖွင့်ပြီး Unrestricted ကို ရွေးပေးပါ — ဒါမှ ကာကွယ်မှု တိတ်တိတ်လေး ပိတ်သွားမှာ မဟုတ်ပါဘူး။</string>
+
+    <string name="onb_blocked">ပိတ်ထားသည်</string>
+    <string name="onb_next">ဆက်သွားမယ်</string>
+    <string name="onb_skip">မိတ်ဆက်ကို ကျော်သွားမယ်</string>
+    <string name="onb_vpn_action">VPN ခွင့်ပြုမယ်</string>
+    <string name="onb_notif_action">အသိပေးချက် ခွင့်ပြုမယ်</string>
+    <string name="onb_battery_action">App info ဖွင့်မယ်</string>
+    <string name="onb_not_now">ခု မလုပ်သေးဘူး</string>
+    <string name="onb_finish">ပြီးပါပြီ</string>
+</resources>
