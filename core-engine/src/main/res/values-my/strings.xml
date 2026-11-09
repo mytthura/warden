@@ -1,0 +1,14 @@
+<resources>
+    <string name="engine_session">Warden</string>
+    <string name="engine_channel">ကာကွယ်မှု အခြေအနေ</string>
+    <string name="engine_notif_title">Warden ဖွင့်ထားသည်</string>
+    <string name="engine_notif_text">သင့်အက်ပ်တွေရဲ့ ချိတ်ဆက်မှုတွေကို စောင့်ကြည့်နေပါတယ် — ဒီဖုန်းပေါ်မှာပဲ။</string>
+    <plurals name="engine_notif_blocked">
+        <item quantity="one">Warden စတင်ကတည်းက ချိတ်ဆက်မှု %d ခု ပိတ်ထားပြီးပါပြီ။</item>
+        <item quantity="other">Warden စတင်ကတည်းက ချိတ်ဆက်မှု %d ခု ပိတ်ထားပြီးပါပြီ။</item>
+    </plurals>
+    <string name="engine_notif_stop">ရပ်မယ်</string>
+    <string name="engine_tile">ကာကွယ်မှု</string>
+    <string name="engine_tile_on">ဖွင့်ထားသည်</string>
+    <string name="engine_tile_off">ပိတ်ထားသည်</string>
+</resources>
